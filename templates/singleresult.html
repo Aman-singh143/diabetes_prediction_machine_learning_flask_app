@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <h1 style="color: {% if result == 'Diabetic' %}red{% else %}green{% endif %};">
+        The prediction result is: <strong>{{ result }}</strong>
+    </h1>
+
+    <div id="chart-container">
+        {{ chart_html | safe }}
+    </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</body>
+</html>
