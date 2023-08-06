@@ -6,6 +6,10 @@
 
 The **Diabetes Prediction Web Application** is a user-friendly platform that harnesses the power of machine learning to predict the likelihood of an individual having diabetes based on specific input features. Developed using Flask, a lightweight web framework for Python, and powered by scikit-learn, a renowned machine learning library, the application offers both accuracy and accessibility. Bootstrap is utilized for elegant styling, while Chart.js enhances data visualization.
 
+## Live View
+
+Experience the live view of the app: [Diabetes Prediction Web App](https://diabetes-prediction-ml-flask-app.onrender.com/)
+
 ## Dataset Overview
 
 The project relies on the Pima Indians Diabetes Database, encompassing data from 768 female patients of Pima Indian heritage. This dataset features 8 input parameters and 1 binary target variable:
@@ -44,3 +48,8 @@ python app.py
 ```
 
 Access the application via your web browser at http://127.0.0.1:5000/ to leverage its advanced prediction functionality .
+
+## Live Demo
+
+Visit the live demo of the Diabetes Prediction Web Application and start making accurate diabetes predictions based on your input data. For more details, explore the [GitHub repository](https://github.com/Aman-singh143/diabetes_prediction_machine_learning_flask_app).
+
