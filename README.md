@@ -43,4 +43,4 @@ Following package installation, run the app using:
 python app.py
 ```
 
-Access the application via your web browser at http://127.0.0.1:5000/ to leverage its advanced prediction functionality.
+Access the application via your web browser at http://127.0.0.1:5000/ to leverage its advanced prediction functionality .
